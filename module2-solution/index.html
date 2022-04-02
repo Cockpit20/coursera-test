@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Solution for Module2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{background-color: black;
+		}
+		div.card{
+			border: 1px solid black;
+			background-color: grey;
+			width: 90%;
+			margin:20px auto;
+			padding:20px;
+			font-family: Helvetica;
+			color: black;
+			position: relative;
+		}
+		p{
+			padding-top: 40px;
+			color: white;
+			font-family: 'Send Flowers', cursive;
+			font-weight: bolder;
+			font-size: 25px;
+		}
+		.row{
+			width: 100%;
+		}
+		@media (min-width: 992px){
+			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+				float: left;
+				/*border: 1px solid green;*/
+			}
+			.col-lg-1{
+				width: 8.33%;
+			}
+			.col-lg-2{
+				width: 16.66%;
+			}
+			.col-lg-3{
+				width: 25%;
+			}
+			.col-lg-4{
+				width: 33%;
+			}
+			.col-lg-5{
+				width: 41.66%;
+			}
+			.col-lg-6{
+				width: 50%;
+			}
+			.col-lg-7{
+				width: 58.33%;
+			}
+			.col-lg-8{
+				width: 66.66%;
+			}
+			.col-lg-9{
+				width: 75%;
+			}
+			.col-lg-10{
+				width: 83%;
+			}
+			.col-lg-11{
+				width: 91.66%;
+			}
+			.col-lg-12{
+				width: 100%;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+				float: left;
+				/*border: 1px solid green;*/
+			}
+			.col-md-1{
+				width: 8.33%;
+			}
+			.col-md-2{
+				width: 16.66%;
+			}
+			.col-md-3{
+				width: 25%;
+			}
+			.col-md-4{
+				width: 33%;
+			}
+			.col-md-5{
+				width: 41.66%;
+			}
+			.col-md-6{
+				width: 50%;
+			}
+			.col-md-7{
+				width: 58.33%;
+			}
+			.col-md-8{
+				width: 66.66%;
+			}
+			.col-md-9{
+				width: 75%;
+			}
+			.col-md-10{
+				width: 83%;
+			}
+			.col-md-11{
+				width: 91.66%;
+			}
+			.col-md-12{
+				width: 100%;
+			}
+		}
+		h1{
+			text-align: center;
+			font-size: 75px;
+			margin-bottom: 50px ;
+			color: white;
+			text-decoration: underline;
+			font-family: 'Lobster', cursive;
+		}
+		h3{
+			font-size: 25px;
+			font-style: italic;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 5px 35px;
+			border-bottom: 1px solid black;
+			border-left: 1px solid black;
+			font-family: 'Bebas Neue', cursive;
+		}
+		#st-1{
+			background-color: #F98B88;
+			color: black;
+		}
+		#st-2{
+			background-color: #A52A2A;
+			color: white;
+		}
+		#st-3{
+			background-color: #DEB887;
+			color: black;
+		}
+		#card1{
+			background: url('card1.jpg') no-repeat center center;
+			opacity: 0.75;
+			background-size: cover;
+		}
+		#card2{
+			background: url('card2.jpg') no-repeat center center;
+			opacity: 0.75;
+			background-size: cover;
+		}
+		#card3{
+			background: url('card3.jpg') no-repeat center center;
+			opacity: 0.75;
+			background-size: cover;
+		}
+		</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="row">
+		<div class="col-lg-4 col-md-6">
+			<div class="card" id="card1">
+				<h3 id="st-1">Chicken</h3>
+				<p>Tandoori chicken served with lemon, onion,coriander and green chutney is a chicken dish prepared by roasting chicken marinated in yogurt and spices in a tandoor, a cylindrical clay oven. The dish originated from the Indian subcontinent and is popular in many other parts of the world.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+			<div class="card" id="card2">
+				<h3 id="st-2">Beef</h3>
+				<p> Prime rib has a large “eye” of meat in the center, which is juicy, tender, and marbled with fat. This eye is surrounded by fat-marbled muscle, and that is surrounded by a thick cap of fat. Because these muscles are not heavily used, the prime rib is tender, juicy, and extremely flavorful.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12" >
+			<div class="card" id="card3">
+				<h3 id="st-3">Sushi</h3>
+				<p>Sushi is a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold. Restaurants specializing in sushi abound in Japan, where subtleties of preparation find a discriminating clientele</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

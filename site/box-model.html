@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Box Model</title>
+	<style type="text/css">
+		/*CSS Reset*/
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		/*body{
+			background-color: gray;
+		}
+		#box{
+			background-color: blue;
+			padding: 10px;
+			border: 5px solid black;
+			width: 300px;
+			height: 50px;
+			margin-top: 50px;
+			overflow: auto;
+		}
+		#content{
+			background-color: #90EE90;
+		}
+		h1{
+			margin-bottom: 30px;
+		}*/
+		#bg{
+			width: 500px;
+			height: 500px;
+			background-color: blue;
+			background: url('bg.jpg') no-repeat left center;
+			background-size: cover;
+		}
+		/*div{
+			background-color: #00FFFF;
+		}
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin: 10px;
+		}
+		#p1{
+			background-color: #A52A2A;
+			float: left;
+		}
+		#p2{
+			background-color: #DEB887;
+			float: right;
+		}
+		#p3{
+			background-color: #5F9EA0;
+			clear: both;
+		}
+		#p4{
+			background-color: #FF7F50;
+		}
+		section{
+			clear: left;
+		}*/
+
+		/*div{
+			background-color: #00FFFF;
+		}
+		p{
+			width: 50%;
+			border: 1px solid black;
+			float: left;
+			padding: 10px;
+		}
+		#p1{
+			background-color: #A52A2A;
+		}
+		#p2{
+			background-color: #DEB887;
+		}
+		section{
+			clear: left;
+		}*/
+
+		h1{
+			margin-bottom: 15px;
+		}
+		div#container{
+			background-color: cyan;
+			position: relative;
+			top: 60px;
+		}
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p1{
+			background-color: #A52A2A;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		#p2{
+			background-color: #DEB887;
+		}
+		#p3{
+			background-color: #5F9EA0;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4{
+			background-color: #FF7F50;
+		}
+	</style>
+</head>
+<body>
+	<h1>Box Model</h1>
+	<div id="box">
+		<div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.</div>
+	</div>
+
+	<h1>The Background Property</h1>
+	<div id="bg">Background properties are fun!</div>
+
+	<h1>Floating Elements</h1>
+	<div>
+		<!-- <p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p> -->
+		<section>This is regular content continuing after the paragraph boxes</section>
+	</div>
+
+	<h1>Two Column Design</h1>
+	<div>
+		<!-- <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+		<section>This is regular content continuing after the paragraph boxes</section>
+	</div>
+
+	<h1>Positioning Elements</h1>
+	<div id="container">
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p>
+	</div>
+	
+</body>
+</html>
