@@ -57,6 +57,17 @@ body {
   text-decoration: underline;
   font-family: 'Lobster', sans-serif;
 }
+.section-heading{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+      font-style: italic;
+      padding: 5px 35px;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+}
 
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
@@ -94,12 +105,16 @@ body {
   opacity: .8;
 }
 .para{
-  padding-top: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
   color: white;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 1.2em;
+  font-family: 'Send Flowers', cursive;
+  font-size: 1.6em;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.75;
+}
+a:hover{
+  text-decoration: none;
 }
 /* END HOME PAGE */
 
